@@ -17,10 +17,7 @@ p{
     margin-bottom: 25px;
     font-family: system-ui;
 }
-@media only screen and (max-width: 600px) {
-    p {
-      width: 100%;
-    }}
+
 .button{
     margin-bottom: 20px;
     background-color: aliceblue;
@@ -42,4 +39,12 @@ p{
 .button:hover{
 color:aliceblue;
 background-color: #000000bb;
+}
+@media only screen and (max-width: 600px) {
+    p {
+      width: 100%;
+    }
+    .button{
+        width:80%;
+        height:15%; }
 }
